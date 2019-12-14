@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<TrainList>
+	<Train TrainNumber="101A">
+		<Departure>2020-12-01T19:40:00</Departure>
+		<Arrival>2020-12-01T23:40:00</Arrival>
+		<DepartureCity>Yaroslavl</DepartureCity>
+		<ArrivalCity>Moscow</ArrivalCity>
+		<Route>
+			<Item>
+				<City>Yaroslavl</City>
+				<Departure>2020-12-01T19:40:00</Departure>
+			</Item>
+			<Item>
+				<City>Rostov</City>
+				<Departure>2020-12-01T20:21:00</Departure>
+				<Arrival>2022-12-01T20:20:00</Arrival>
+			</Item>
+			<Item>
+				<City>Moscow</City>
+				<Arrival>2022-12-01T23:40:00</Arrival>
+			</Item>
+		</Route>
+	</Train>
+	<Train TrainNumber="21B">
+		<Departure>2019-12-24T12:40:00</Departure>
+		<Arrival>2020-12-01T23:40:00</Arrival>
+		<DepartureCity>Moscow</DepartureCity>
+		<ArrivalCity>Magadan</ArrivalCity>
+		<Route>
+			<Item>
+				<City>Moscow</City>
+				<Departure>2019-12-24T12:40:00</Departure>
+			</Item>
+			<Item>
+				<City>Magadan</City>
+				<Arrival>2020-12-01T23:40:00</Arrival>
+			</Item>
+		</Route>
+	</Train>
+		<Train TrainNumber="22B">
+		<Departure>2019-12-24T12:40:00</Departure>
+		<Arrival>2020-12-01T23:40:00</Arrival>
+		<DepartureCity>Yaroslavl</DepartureCity>
+		<ArrivalCity>Rostov</ArrivalCity>
+		<Route>
+			<Item>
+				<City>Yaroslavl</City>
+				<Departure>2019-12-24T12:40:00</Departure>
+			</Item>
+			<Item>
+				<City>Rostov</City>
+				<Arrival>2020-12-01T23:40:00</Arrival>
+			</Item>
+		</Route>
+	</Train>
+</TrainList>
